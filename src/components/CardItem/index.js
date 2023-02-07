@@ -1,7 +1,7 @@
 import './index.css'
 const Welcome = props => {
-  const {banner} = props
-  const {title, description, key, className, imgUrl} = banner
+  const {object} = props
+  const {title, description, key, className, imgUrl} = object
   return (
     <li className={className} id="card">
       <h1 className="heading">{title}</h1>
@@ -13,3 +13,4 @@ const Welcome = props => {
   )
 }
 export default Welcome
+
