@@ -45,11 +45,11 @@ const App = () => (
         Get by alumini of iit top employes like amazon,Microsoft
       </p>
     </li>
-    <ul className="cards-container">
+    <li className="cards-container">
       {cardsList.map(object => (
         <Welcome object={object} />
       ))}
-    </ul>
+    </li>
   </ul>
 )
 
