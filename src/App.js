@@ -41,8 +41,12 @@ const App = () => (
     <li className="text-container">
       <h1 className="main-heading">Learn 4.0 Technologies</h1>
       <p className="main-paragraph">
-        Get trained by alumini of iit top employes like amazon,Microsoft <br />
-        Get by alumini of iit top employes like amazon,Microsoft
+                Get trained by alumini of IITs and top companies like
+        amazon,Microsoft,intel,
+        <br />
+        nvdia,qualcomm etc.Learn directly from professionals involved from in
+        product <br />
+        Development
       </p>
     </li>
     <li className="cards-container">
